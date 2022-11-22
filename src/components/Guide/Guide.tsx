@@ -1,4 +1,4 @@
-import { Layout, Row, Typography } from 'antd';
+import { Button, Layout, Row, Typography } from 'antd';
 import React from 'react';
 import styles from './Guide.less';
 
@@ -12,6 +12,7 @@ const Guide: React.FC<Props> = (props) => {
   return (
     <Layout>
       <Row>
+        <Button>欢迎使用ant</Button>
         <Typography.Title level={3} className={styles.title}>
           欢迎使用 <strong>{name}</strong> ！
         </Typography.Title>
